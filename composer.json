@@ -1,5 +1,5 @@
 {
-    "name": "scuti/eloquenttable",
+    "name": "scuti/eloquent-table",
     "description": "An HTML table generator for laravel collections",
     "authors": [
         {
