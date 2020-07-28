@@ -4,12 +4,10 @@ Include the package in `composer.json`:
 
     composer require scuti/eloquent-table
 
-Then run : `composer update`.
-
 
 Publish the config file
 
-    php artisan vendor:publish
+    php artisan vendor:publish --tag=config
 
 
 ### Usage
