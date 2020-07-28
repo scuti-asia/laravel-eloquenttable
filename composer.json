@@ -1,0 +1,26 @@
+{
+    "name": "scuti/eloquenttable",
+    "description": "An HTML table generator for laravel collections",
+    "authors": [
+        {
+            "name": "Lee",
+            "email": "thuylee221095@gmail.com"
+        }
+    ],
+    "require": {
+       
+    },
+    "autoload": {
+        "psr-4": {
+            "Scuti\\EloquentTable\\": "src/EloquentTable/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Scuti\\EloquentTable\\EloquentTableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
