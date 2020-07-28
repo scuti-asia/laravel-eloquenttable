@@ -6,28 +6,12 @@ Eloquent table is an HTML table generator for laravel collections.
 
 Include the package in `composer.json`:
 
-    "stevebauman/eloquenttable": "1.1.*"
+    "scuti/eloquenttable": "1.1.*"
 
-Now perform a `composer update`.
+Then run : `composer update`.
 
-#### Laravel 4
 
-Include the service providers in the <em>bottom</em> `app/config/app.php` config file:
-
-    'Stevebauman\EloquentTable\PaginationServiceProvider',
-    'Stevebauman\EloquentTable\EloquentTableServiceProvider',
-
-Publish the config file (optional)
-
-    php artisan config:publish stevebauman/eloquenttable
-    
-#### Laravel 5
-
-Include the service providers in the <em>bottom</em> `config/app.php` config file:
-
-    'Stevebauman\EloquentTable\EloquentTableServiceProvider',
-
-Publish the config file (mandatory in Laravel 5)
+Publish the config file
 
     php artisan vendor:publish
 
