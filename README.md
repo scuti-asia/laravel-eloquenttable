@@ -34,7 +34,7 @@ Insert the trait on your model:
 
 Grab records from your model like usual:
 
-    $books = Books::get();
+    $books = Users::get();
 
     return view('books.index', compact('books'));
 
