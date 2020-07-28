@@ -2,7 +2,7 @@
 
 Include the package in `composer.json`:
 
-    "composer require scuti/eloquent-table"
+    composer require scuti/eloquent-table
 
 Then run : `composer update`.
 
