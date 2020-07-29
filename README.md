@@ -1,6 +1,6 @@
 # Installation
 
-Include the package in `composer.json`:
+Run:
 
     composer require scuti/eloquent-table
 
